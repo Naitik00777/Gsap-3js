@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'monospace';
+    color: white;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body{
+  background-color: black;
+  padding: 90px;
+  text-align: center;
+}
+
+.box{
+  height: 200px;
+  width: 200px;
+  background-color: crimson;
+  border: 3px solid white;
+  margin-bottom: 10px;
+}
+.circle{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background-color: lightseagreen;
+  border: 3px solid white;
+}
+
+div{
+  /* width: 60vw; */
+  margin: auto;
+}
+h2{
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 62px;
+}
+
+p{
+  font-size: 40px;
+}
